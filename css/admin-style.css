@@ -1,0 +1,47 @@
+/* css/admin-style.css */
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 4px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.pagination a:hover {
+    background-color: #e0e0e0;
+}
+
+.pagination .current-page {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+.email-address-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+}
+
+
+.remove-email {
+    background: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
